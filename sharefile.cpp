@@ -77,7 +77,8 @@ int main(int argc,char* argv[]){
 	cout<<dirname<<endl;
 	excutecmd("cp '"+inputfname+"' "+dirname,1);
 	startphp(dirname,inputfname,0);
-	
+	cout<<"File sharing server interrupt"<<endl;
+	return 0	
 
 }
 
